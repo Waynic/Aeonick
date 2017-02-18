@@ -177,5 +177,5 @@ def abstr(text,img = ""):
     text = text.replace(u'\n\n\n',u'\n')
     text = text.replace(u'\n\n',u'\n')
     print text
-    text = text[:120]+'...'+'<center>'+img+'</center>'
+    text = text[:120]+'...'+'<center>'+'<img src="'+img+'">'+'</center>'
     return text
