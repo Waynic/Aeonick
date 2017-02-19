@@ -93,7 +93,7 @@ p,pre{margin:0}
 select,input,textarea,button{font-size:16px;border-radius:4px;padding:0 4px;margin:0;background:#FFF;min-height:24px;border-width:1px;border-color:#ccc;border-style:solid}
 label{font-size:16px;font-weight:500;margin:0 10px}
 
-html,body{height:100%;width:100%;margin:0;background:#f9f9f9;color:#545454;font-family:Helvetica,sans-serif,FontAwesome !important;}
+html,body{height:100%;width:100%;margin:0;background:#f9f9f9;color:#545454;font-family: 'fontawesome', 'Helvetica Neue', Helvetica, STHeiti, 'Microsoft YaHei', Arial, Verdana, sans-serif !important;}
 
 .main{height:100%;margin:0;}
 
@@ -116,7 +116,7 @@ nav{background:#BFD1DF;height:36px;width:100%;position:fixed;top:0;z-index:1200;
 -khtml-user-select:none;
 user-select:none;}
 
-.navbu{background:#BFD1DF;height:28px;padding:4px;color:#fff;font-size:18px;float:left;margin-left:1%;}
+.navbu{background:#BFD1DF;height:28px;padding:4px;color:#fff;font-size:20px;float:left;margin-left:1%;}
 .navbu:hover{background:#4f94cd;}
 
 .navbu.ind{margin-left:-10px;margin-right:10px}
@@ -165,7 +165,7 @@ span.bars{color:#fff;font-size:25px;line-height:36px;margin-right:6%;float:right
 .navx:hover{background:#BFD1DF;}
 
 
-cir{width:180px;height:180px;background-color:#BFD1DF;border-radius:90px;position:relative;top:-130px;float:left;font-family: 'Trebuchet MS',sans-serif;font-size:22px;color:#fff;}
+cir{width:180px;height:180px;background-color:#BFD1DF;border-radius:90px;position:relative;top:-130px;float:left;font-family: 'Trebuchet MS',sans-serif;font-size:26px;color:#fff;}
 
 cir:hover{background:#FFF;color:#222}
 flash{background:#FCF8E3;border-radius:5px;border:1px solid #FAEBCC;padding:5px 12px;font-size:18px;color:#8A6D3B}
