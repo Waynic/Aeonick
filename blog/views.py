@@ -103,7 +103,6 @@ def article(bg_id):
     return render_template('article.html',cont = cont,id = bg_id,tem = tem)
 
 
-
 #留言板
 @app.route('/memo',methods = ['GET', 'POST'])
 def memo():
@@ -113,6 +112,7 @@ def memo():
         return redirect(url_for('memo'))
     tem = curComm.commList()
     return render_template('memo.html',tem = tem)
+
 @app.route('/article/0')
 def arti0():
     return redirect(url_for('memo'))
